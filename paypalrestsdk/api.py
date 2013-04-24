@@ -3,9 +3,9 @@ from __future__ import division
 import httplib2, base64, json
 import logging, datetime, os, platform
 
-import paypalrestsdk.util as util
-from paypalrestsdk.exceptions import *
-from paypalrestsdk.version    import __version__
+import util as util
+from exceptions import *
+from version    import __version__
 
 class Api:
 

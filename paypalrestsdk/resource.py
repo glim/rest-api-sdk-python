@@ -1,5 +1,5 @@
-import paypalrestsdk.util as util
-import paypalrestsdk.api  as api
+import util as util
+import api  as api
 import uuid, json
 
 # Base class for all REST service
