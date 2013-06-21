@@ -1,6 +1,6 @@
 from paypalrestsdk.resource import Resource
-import paypalrestsdk.util as util
-import paypalrestsdk.api  as api
+import util as util
+import api  as api
 from paypalrestsdk.version    import __version__
 
 class Base(Resource):
